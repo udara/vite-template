@@ -12,11 +12,17 @@ export default {
             },
         },
         colors: {
-            'light-blue': '#798fef',
-            brown: {
-                light: '#ded8db'
-            },
+            'black': '#000000',
+            'white': '#ffffff',
+            'warning': '#d53c3c',
+            'primary-color': 'rgb(65, 75, 178)',
+            'primary-light-color': '#b8bdf4',
+            'primary-form-color': 'rgb(162, 160, 160)',
+            'primary-form-border-color': 'rgb(219, 219, 219)'
         },
+        fontFamily: {
+            spoof: ["Spoof"]
+        }
     },
     plugins: [],
 }
