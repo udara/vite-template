@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 import MainWrapper from "../../components/shared/formatWrappers/MainWrapper.jsx";
 import WrapAllInMiddle from "../../components/shared/formatWrappers/WrapAllInMiddle.jsx";
 import Logo from '../../components/shared/Logo';
@@ -7,9 +9,13 @@ const Signup = () => {
     return (
         <MainWrapper>
             <WrapAllInMiddle>
-                <Logo  />
-                <header>Start receiving cryptocurrency payments today.</header>
-                <Button text={`Get started`}/>
+                <Logo/>
+                <header className={`my-3`}>Start receiving cryptocurrency payments today.</header>
+                <div className={`w-full pt-2`}>
+                    <Link to={'/signup/choose-account-type'}>
+                        <Button text={`Get started`}/>
+                    </Link>
+                </div>
             </WrapAllInMiddle>
         </MainWrapper>
     )

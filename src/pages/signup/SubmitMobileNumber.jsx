@@ -16,18 +16,22 @@ const SubmitMobileNumber = () => {
             <WrapAllInMiddle>
                 <div className={`mx-auto max-w-[600px]`}>
                     <Logo customClass={`py-2`} customImageClass={`w-[150px]`} />
-                    <header>Verify your phone number with a code.</header>
-                    <small className={`block py-3`}>It helps us keep your account secure. <Link className={`underline`} to={`#`}>Learn more</Link></small>
-                    <div className={`flex items-center gap-1`}>
-                        <div className={`w-2/12`}>
+                    <header className={`my-3`}>Verify your phone number with a code.</header>
+                    <small className={`my-4 block`}>It helps us keep your account secure. <Link className={`underline`} to={`#`}>Learn more</Link></small>
+                    <div className={`flex items-center justify-center mx-auto gap-1 max-w-[300px]`}>
+                        <div className={`w-3/12`}>
                             <SelectBox/>
                         </div>
-                        <div className={`w-10/12`}>
+                        <div className={`w-9/12`}>
                             <InputBox error={''} placeholder={`Mobile`}/>
                         </div>
                     </div>
-                    <div className={`w-full text-right pt-2`}>
-                        <Button text={`Next`}/>
+                    <div className={`w-full text-center pt-2`}>
+                        <div className={`w-full text-right pt-2`}>
+                            <Link className={`underline underline-offset-2`} to={'/signup/verify-mobile-number'}>
+                                <Button text={`Continue`}/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </WrapAllInMiddle>

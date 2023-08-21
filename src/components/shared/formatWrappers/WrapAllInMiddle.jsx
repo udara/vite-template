@@ -9,7 +9,7 @@
 const WrapAllInMiddle = ({ children, customClass = null, minHeight = 'min-h-screen' }) => {
     return (
         <div className={`flex items-center justify-center ${minHeight} ${customClass}`}>
-            <div className={'inline-block w-full align-middle space-y-10 text-center'}>
+            <div className={'inline-block w-full align-middle text-center'}>
                 {children}
             </div>
         </div>

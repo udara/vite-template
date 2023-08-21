@@ -16,8 +16,8 @@ const SubmitMobileNumber = () => {
             <WrapAllInMiddle>
                 <div className={`mx-auto max-w-[600px]`}>
                     <Logo customClass={`py-2`} customImageClass={`w-[150px]`} />
-                    <header>Verify your phone number with a code.</header>
-                    <small className={`block py-3`}>It helps us keep your account secure. <Link className={`underline`} to={`#`}>Learn more</Link></small>
+                    <header className={`my-3`}>Verify your phone number with a code.</header>
+                    <small className={`my-4 block`}>It helps us keep your account secure. <Link className={`underline`} to={`#`}>Learn more</Link></small>
                     <div className={`flex items-center justify-center gap-2 py-2`}>
                         <input type={`text`} className={`pto-box`}/>
                         <input type={`text`} className={`pto-box`}/>
