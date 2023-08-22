@@ -18,22 +18,30 @@ import SubmitMobileNumber from "./pages/signup/SubmitMobileNumber.jsx";
 import Login from "./pages/login/Login.jsx";
 import VerifyMobileNumber from "./pages/signup/VerifyMobileNumber.jsx";
 import CreateYourWallet from "./pages/createYourWallet.jsx";
-import Wallet from "./pages/wallet.jsx";
+import WalletDetails from "./pages/WalletDetails.jsx";
+import VerifyEmail from "./pages/signup/VerifyEmail.jsx";
+import PaymentRequestStart from "./pages/PaymentRequestStart";
+import PaymentRequestSelectSender from "./pages/PaymentRequestSelectSender";
+import PaymentRequestConfirmation from "./pages/PaymentRequestConfirmation";
 
 function App() {
     return (
         <>
-            <MainNavigation/>
+            {/*<MainNavigation/>*/}
             <Router>
                 <Routes>
                     <Route path='/home' exact element={<Home/>}/>
                     <Route path='/create-your-wallet' exact element={<CreateYourWallet/>}/>
                     <Route path='/add-user-address' exact element={<GetUserAddress/>}/>
-                    <Route path='/wallet' exact element={<Wallet/>}/>
+                    <Route path='/wallet/:id' exact element={<WalletDetails/>}/>
+                    <Route path='/payment-request/:wallet_id' exact element={<PaymentRequestStart/>}/>
+                    <Route path='/payment-request-select-sender' exact element={<PaymentRequestSelectSender/>}/>
+                    <Route path='/payment-request-sent' exact element={<PaymentRequestConfirmation/>}/>
                     {/*Signup*/}
                     <Route path='/signup' exact element={<Signup/>}/>
                     <Route path='/signup/choose-account-type' exact element={<ChooseAnAccountType/>}/>
                     <Route path='/signup/submit-signup-details' exact element={<SubmitSignupDetails/>}/>
+                    <Route path='/signup/verify-email' exact element={<VerifyEmail/>}/>
                     <Route path='/signup/submit-details-personal' exact element={<SubmitDetailsPersonal/>}/>
                     <Route path='/signup/submit-mobile-number' exact element={<SubmitMobileNumber/>}/>
                     <Route path='/signup/verify-mobile-number' exact element={<VerifyMobileNumber/>}/>

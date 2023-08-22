@@ -27,7 +27,7 @@ const GetUserAddress = () => {
                     <p className={`font-semibold my-5`}>Your address details</p>
                     <small className={`my-4 block`}>By law, we may need to ask for proof of your address.</small>
                     <InputBox label={`Country`} error={''} placeholder={`UK`}/>
-                    <hr className={`text-primary-form-border-color border my-6 `}/>
+                    <hr className={`text-primary-form-light-color border my-6 `}/>
                     <InputBox label={`Address 1`} error={''} placeholder={`Unit`}/>
                     <InputBox label={`Address 2`} error={''} placeholder={`Street`}/>
                     <InputBox label={`City`} error={''} placeholder={`City`}/>

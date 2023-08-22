@@ -27,8 +27,11 @@ const SubmitMobileNumber = () => {
                         <input type={`text`} className={`pto-box`}/>
                     </div>
                     <div className={`w-full text-center pt-3`}>
-                        <Button text={`Next`}/>
+                        <Button text={`Verify mobile`}/>
                     </div>
+
+                    <small className={`my-4 block`}>I didn't receive the code. <Link
+                        className={`underline underline-offset-2`} to={'/signup/submit-signup-details'}>Re-send code</Link></small>
                 </div>
             </WrapAllInMiddle>
         </MainWrapper>

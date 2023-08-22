@@ -20,7 +20,7 @@ const ChooseAnAccountType = () => {
 
                     <Link to={`/signup/submit-signup-details`}>
                         <div
-                            className={`w-[180px] bg-opacity-50 hover:bg-opacity-75 border border-primary-form-border-color bg-primary-form-border-color  p-2 rounded`}>
+                            className={`w-[180px] bg-opacity-50 hover:bg-opacity-75 border border-primary-form-light-color bg-primary-form-light-color  p-2 rounded`}>
                             <div className={`w-full`}></div>
                             <RoundedIcon iconImg={userIcon}
                                          outerDivCustomClass={`mx-auto`}
@@ -34,7 +34,7 @@ const ChooseAnAccountType = () => {
 
                     <Link to={`/signup/submit-signup-details`}>
                         <div
-                            className={`w-[180px] bg-opacity-50 hover:bg-opacity-75 border border-primary-form-border-color bg-primary-form-border-color  p-2 rounded`}>
+                            className={`w-[180px] bg-opacity-50 hover:bg-opacity-75 border border-primary-form-light-color bg-primary-form-light-color  p-2 rounded`}>
                             <div className={`w-full`}></div>
                             <RoundedIcon iconImg={businessIcon}
                                          outerDivCustomClass={`mx-auto`}

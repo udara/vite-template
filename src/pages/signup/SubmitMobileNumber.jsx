@@ -27,9 +27,12 @@ const SubmitMobileNumber = () => {
                         </div>
                     </div>
                     <div className={`w-full text-center pt-2`}>
-                        <div className={`w-full text-right pt-2`}>
-                            <Link className={`underline underline-offset-2`} to={'/signup/verify-mobile-number'}>
-                                <Button text={`Continue`}/>
+                        <div className={`flex items-center justify-end pt-2 gap-5`}>
+                            <Link className={`text-primary-color hover:text-opacity-80`} to={'/home'}>
+                                Skip for now
+                            </Link>
+                            <Link to={'/signup/verify-mobile-number'}>
+                                <Button text={`Verify Mobile Number`}/>
                             </Link>
                         </div>
                     </div>

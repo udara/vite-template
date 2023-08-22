@@ -11,7 +11,7 @@ const SubmitDetailsBusiness = ({}) => {
                 <div className={`mx-auto max-w-[600px]`}>
                     <header className={`text-left my-3`}>Signup.</header>
                     <InputBox label={`Contact name`} error={''} placeholder={`Contact name`}/>
-                    <hr className={`text-primary-form-border-color border my-6 `}/>
+                    <hr className={`text-primary-form-light-color border my-6 `}/>
                     <InputBox label={`Address 1`} error={''} placeholder={`Address 1`}/>
                     <InputBox label={`Address 2`} error={''} placeholder={`Address 2`}/>
                     <InputBox label={`City`} error={''} placeholder={`City`}/>

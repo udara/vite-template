@@ -38,7 +38,7 @@
         @apply
         w-full p-2
         text-base
-        border-2 rounded-md border-primary-form-border-color outline-none
+        border-2 rounded-md border-primary-form-light-color outline-none
         placeholder-opacity-50 placeholder-primary-form-color
     }
 
@@ -50,7 +50,7 @@
         @apply
         w-full p-2
         text-base
-        border-2 rounded-md border-primary-form-border-color outline-none
+        border-2 rounded-md border-primary-form-light-color outline-none
         placeholder-opacity-50 placeholder-primary-form-color
     }
 

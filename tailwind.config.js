@@ -18,7 +18,7 @@ export default {
             'primary-color': 'rgb(65, 75, 178)',
             'primary-light-color': '#b8bdf4',
             'primary-form-color': 'rgb(162, 160, 160)',
-            'primary-form-border-color': 'rgb(219, 219, 219)'
+            'primary-form-light-color': 'rgb(219, 219, 219)'
         },
         fontFamily: {
             spoof: ["Spoof"]

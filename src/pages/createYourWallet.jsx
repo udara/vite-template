@@ -33,9 +33,9 @@ const createYourWallet = () => {
                         <CurrencyTypeIcon iconImg={bitcoinIcon} name={`Bitcoin`} code={`BTC`} onclickHandler={onclickHandler} />
                         <CurrencyTypeIcon iconImg={ethereumIcon} name={`Ethereum`} code={`ETH`} onclickHandler={onclickHandler}/>
                     </div>
-                    <hr className={`text-primary-form-border-color border my-6 `}/>
+                    <hr className={`text-primary-form-light-color border my-6 `}/>
                     <InputBox label={`Wallet short name`} error={''} placeholder={`e.g. "Personal", "Business"`}/>
-                    <hr className={`text-primary-form-border-color border my-6 `}/>
+                    <hr className={`text-primary-form-light-color border my-6 `}/>
                     <InputBox label={`Wallet Address`} error={''} placeholder={`xxx-xxxx-xxxxx-xxx`}/>
                     <InputBox label={`Confirm wallet address`} error={''} placeholder={`xxx-xxxx-xxxxx-xxx`}/>
                     <div className={`w-full text-right pt-2`}>

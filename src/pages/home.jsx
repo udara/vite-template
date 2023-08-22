@@ -27,6 +27,7 @@ const GetStarted = () => {
 
                 <div className={`max-w-[400px] max-w-[650px]`}>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                        <Link  to={'/payment-request/x7u5yrjmj'}>
                         <WalletSummery
                             iconImg={bitcoinIcon}
                             walletName={`personal`}
@@ -34,6 +35,7 @@ const GetStarted = () => {
                             balanceInFIAT={'$9,453.00'}
                             cryptoCurrencyCode={'BTC'}
                         />
+                        </Link>
                         <WalletSummery
                             iconImg={bitcoinIcon}
                             walletName={`personal`}

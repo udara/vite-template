@@ -18,11 +18,11 @@ const SubmitSignupDetails = () => {
                     <small className={`my-4 block`}>Already have an account? <Link
                         className={`underline underline-offset-2`} to={'/login'}>Login</Link></small>
                     <InputBox label={`Name`} error={''} placeholder={`John Smith`}/>
-                    <InputBox label={`Email`} type={`email`} error={''} placeholder={`j.smith@domain.com`}/>
-                    <InputBox label={`Password`} type={`password`} error={''} />
+                    <InputBox label={`Email`} type={`email`} error={''} instructions={`We will send a verification code to this email. To verify that this is your email address`} placeholder={`j.smith@domain.com`}/>
+                    <InputBox label={`Password`} type={`password`} instructions={`Password must contain a letter a number, and be minimum of 8 characters`} error={''} />
                     <InputBox label={`Confirm password`} type={`password`} error={''} />
                     <div className={`w-full text-right pt-2`}>
-                        <Link className={`underline underline-offset-2`} to={'/signup/submit-mobile-number'}>
+                        <Link className={`underline underline-offset-2`} to={'/signup/verify-email'}>
                             <Button text={`Continue`}/>
                         </Link>
                     </div>
