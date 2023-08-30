@@ -5,23 +5,19 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                'nodes': "url('/img/bg3.png')",
             },
             fontSize: {
-                'xxs': ['0.60rem', '0.60rem'],
             },
         },
         colors: {
-            'black': '#000000',
-            'white': '#ffffff',
-            'warning': '#d53c3c',
-            'primary-color': 'rgb(65, 75, 178)',
-            'primary-light-color': '#b8bdf4',
-            'primary-form-color': 'rgb(162, 160, 160)',
-            'primary-form-light-color': 'rgb(219, 219, 219)'
+            "primary": "#000000",
+            "secondary": "#E7E8FE",
+            "text": "#7A7A7A",
+            "accent": "#F1FF9D",
+            "c9982f5": "#DFF2C2",
+            "23ad887": "#FBFBFB"
         },
         fontFamily: {
-            spoof: ["Spoof"]
         }
     },
     plugins: [],
